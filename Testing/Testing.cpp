@@ -8,7 +8,7 @@ int main()
 	//addingScript.SimpleAdding();
 
 	FibonacchiAndPhi phi;
-	phi.CalculatePhi();
+	phi.CalculatePhiv2();
 
 	return 0;
 }
