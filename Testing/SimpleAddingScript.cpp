@@ -8,23 +8,24 @@ using std::endl;
 
 	void SimpleAddingScript::SimpleAdding()
 	{
-		int sum = 0;
-		int n = 1;
+		double sum = 0;
+		double inNum = 1;
 		cout << "Enter a list of numbers, termindated with a 0 ";
 		//cout << "or non-digit." << endl << "Enter: ";
 		//endl is a new line terminator. not a fan...
 		cout << "or non-digit.";
 		cout << " Enter: ";
-		while (n != 0)
+
+		while (inNum != 0)
 		{
-			cin >> n;
+			cin >> inNum;
 			if (!cin)
 			{
-				n = 0;
+				inNum = 0;
 			}
-			sum = sum + n;
+			sum = sum + inNum;
 		}
-
+		cout << "You added up " << inNum << " numbers." << endl;
 		cout << "Total is: " << sum << endl;
 		//cout << "Press enter to exit";
 
