@@ -14,13 +14,12 @@ using std::endl;
 		double sum = 0;
 		double inNum = 1;
 		int count = 0;
-		cout << "Enter a list of numbers, termindated with a 0 ";
+		cout << "Enter a list of numbers, termindated any letter, then hit enter ";
 		//cout << "or non-digit." << endl << "Enter: ";
 		//endl is a new line terminator. not a fan...
-		cout << "or non-digit.";
-		cout << " Enter: ";
+		cout << " Enter your numbers: ";
 
-		while ((inNum != 0) && cin)
+		while (cin)
 		{
 			cin >> inNum;
 			sum = sum + inNum;
