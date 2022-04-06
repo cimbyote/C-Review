@@ -24,12 +24,24 @@
     <ClCompile Include="FibonacchiAndPhi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NumberGuesser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberGuesserComputerPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SimpleAddingScript.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="FibonacchiAndPhi.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberGuesser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberGuesserComputerPlayer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
