@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DiceRollOddsCalc.cpp" />
     <ClCompile Include="FibonacchiAndPhi.cpp" />
     <ClCompile Include="NumberGuesser.cpp" />
     <ClCompile Include="NumberGuesserComputerPlayer.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="Testing.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DiceRollOddsCalc.h" />
     <ClInclude Include="FibonacchiAndPhi.h" />
     <ClInclude Include="NumberGuesser.h" />
     <ClInclude Include="NumberGuesserComputerPlayer.h" />
