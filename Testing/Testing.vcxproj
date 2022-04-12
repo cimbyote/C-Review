@@ -143,6 +143,7 @@
     <ClCompile Include="FibonacchiAndPhi.cpp" />
     <ClCompile Include="NumberGuesser.cpp" />
     <ClCompile Include="NumberGuesserComputerPlayer.cpp" />
+    <ClCompile Include="PrimeNum_Sieve _of_Eratosthenese.cpp" />
     <ClCompile Include="SimpleAddingScript.cpp" />
     <ClCompile Include="Testing.cpp" />
   </ItemGroup>
@@ -151,6 +152,7 @@
     <ClInclude Include="FibonacchiAndPhi.h" />
     <ClInclude Include="NumberGuesser.h" />
     <ClInclude Include="NumberGuesserComputerPlayer.h" />
+    <ClInclude Include="PrimeNum_Sieve _of_Eratosthenese.h" />
     <ClInclude Include="SimpleAddingScript.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,6 +4,7 @@
 #include "NumberGuesser.h"
 #include "NumberGuesserComputerPlayer.h"
 #include "DiceRollOddsCalc.h"
+#include "PrimeNum_Sieve _of_Eratosthenese.h"
 
 using std::cin;
 using std::cout;
@@ -34,8 +35,12 @@ int main()
 	//cout << testingLambdaWithRef(5) << endl;
 	//cout << testingLambdaWithRef(10) << endl;
 
-	diceRollOddsCalc dice;
-	dice.runSimulation();
+	//diceRollOddsCalc dice;
+	//dice.runSimulation();
+
+	GivePrimeNumbers sim;
+	sim.runSim();
+
 
 	return 0;
 }

@@ -33,6 +33,9 @@
     <ClCompile Include="DiceRollOddsCalc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PrimeNum_Sieve _of_Eratosthenese.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SimpleAddingScript.h">
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="DiceRollOddsCalc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimeNum_Sieve _of_Eratosthenese.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
